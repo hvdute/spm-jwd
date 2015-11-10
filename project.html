@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title>PROJECT MANAGEMENT</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="style/layout.css" rel="stylesheet">
+	<link rel="stylesheet" href="style/main.css">
+	<link rel="stylesheet" href="style/table.css">
+    <script src="jquery/jquery-1.11.3.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+	<header class="header">
+				<a href="index.html"><img src="assets/header-banner.jpg" alt="" id="header-banner"></a>
+				<div id="login-block">
+					<a href="signin.html">Signin</a>
+					<a href="signup.html">Signup</a>
+				</div>
+				<div id="search-block">
+					<input type="text"><button type="submit" style="border:0; background: transparent;"><img src="assets/search.png" width="25px" height="auto" alt="submit"></button>
+				</div>
+			</header>
+	<!-- top menu bar here -->
+	<div class="nav-bar-div">
+		<ul id="nav-bar">
+			<li id="nav-bar"><a href="index.html" id="nav-bar">HOMEPAGE</a></li>
+			<li id="nav-bar"><a href="admin.html" id="nav-bar">PROJECT MANAGEMENT</a></li>
+			<li id="nav-bar"><a href="#" id="nav-bar">NEWS</a></li>
+			<li id="nav-bar"><a href="#" id="nav-bar">RESEARCH ACTIVITY</a></li>
+			<li id="nav-bar"><a href="#" id="nav-bar">FAQ</a></li>
+		</ul>
+	</div> 
+	<div class="middle">
+		<div class="container">
+			<main class="content">
+				<h2>PROJECT MANAGEMENT</h2><br>
+				<input  style="margin-left: 50px;" type="text" id="searchInput" placeholder="type here to filter by name" ><br>
+    <div class="datagrid">
+        <table>
+            <thead>
+                <tr>
+                    <th>Project title</th>
+                    <th>Creator</th>
+                    <th>ID</th>
+                    <th>Cost</th>
+                    <th>Tutor</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td colspan="5">
+                        <div id="paging">
+                            <ul>
+                                <li>
+                                    <a href="#"><span>Previous</span></a>
+                                </li>
+                                <li>
+                                    <a class="active" href=
+                                    "#"><span>1</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>2</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>3</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>4</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>5</span></a>
+                                </li>
+                                <li>
+                                    <a href="#"><span>Next</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Virtual Reality Glass</td>
+                    <td>Hoang Van Dung</td>
+                    <td>13110020</td>
+                    <td>1.000.000$</td>
+                    <td>Valve</td>
+                </tr>
+                <tr class="alt">
+                    <td>Viet Framework</td>
+                    <td>Pham Thanh Tung</td>
+                    <td>1311xxxx</td>
+                    <td>200.000$</td>
+                    <td>Apple</td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr class="alt">
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr class="alt">
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr class="alt">
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+                <tr class="alt">
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                    <td>data</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+				<script>
+                    $("#searchInput").keyup(function() {
+                        var value = this.value;
+                         $("table").find("tr").each(function(index) {
+                            if (index === 0) return;
+                            var id = $(this).find("td").first().text();
+                            $(this).toggle(id.indexOf(value) !== -1);
+                        });
+                    });
+
+				</script>
+			</main><!-- .content -->
+		</div><!-- .container-->
+
+		<aside class="right-sidebar">
+		</aside><!-- .right-sidebar -->
+	</div><!-- .middle-->
+	<hr>
+	<div class="nav-bar-div">
+			<ul id="nav-bar">
+			<li id="nav-bar"><a href="#" id="nav-bar">HOMEPAGE</a></li>
+			<li id="nav-bar"><a href="admin.html" id="nav-bar">PROJECT MANAGEMENT</a></li>
+			<li id="nav-bar"><a href="#" id="nav-bar">NEWS</a></li>
+			<li id="nav-bar"><a href="#" id="nav-bar">RESEARCH ACTIVITY</a></li>
+			<li id="nav-bar"><a href="#" id="nav-bar">FAQ</a></li>
+		</ul>
+		</div>
+	<footer class="footer">
+		<div class="footer-contact">
+			<p>Copyright © 2015 Scientific Management Department.</p>
+			<p>University of Technology Education - Ho Chi Minh city.</p>
+			<p>Number: +84 968900142</p>
+			<p>Email: hvd.ute@gmai.com</p>
+		</div>
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>

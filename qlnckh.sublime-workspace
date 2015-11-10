@@ -1,0 +1,687 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"di",
+				"direction"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"on",
+				"onmouseover	Attr"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"inp",
+				"input"
+			],
+			[
+				"Da",
+				"DataAccessLayer"
+			],
+			[
+				"Ma",
+				"MaNXB"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style/main.css",
+			"settings":
+			{
+				"buffer_size": 2816,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "site-frame.html",
+			"settings":
+			{
+				"buffer_size": 2218,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5427,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "project.html",
+			"settings":
+			{
+				"buffer_size": 6923,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "signup.html",
+			"settings":
+			{
+				"buffer_size": 2951,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "signin.html",
+			"settings":
+			{
+				"buffer_size": 2753,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "admin.html",
+			"settings":
+			{
+				"buffer_size": 2951,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<meta charset=\"utf-8\" />\n	<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n	<title>ADMINISTRATOR BOARD - SPM</title>\n	<meta name=\"keywords\" content=\"\" />\n	<meta name=\"description\" content=\"\" />\n	<link href=\"style/layout.css\" rel=\"stylesheet\">\n	<link rel=\"stylesheet\" href=\"style/main.css\">\n	<link rel=\"stylesheet\" href=\"style/table.css\">\n</head>\n\n<body>\n\n<div class=\"wrapper\">\n	<header class=\"header\">\n				<a href=\"index.html\"><img src=\"assets/header-banner.jpg\" alt=\"\" id=\"header-banner\"></a>\n				<div id=\"login-block\">\n					<a href=\"signin.html\">Signin</a>\n					<a href=\"signup.html\">Signup</a>\n				</div>\n				<div id=\"search-block\">\n					<input type=\"text\"><button type=\"s`ubmit\" style=\"border:0; background: transparent;\"><img src=\"assets/search.png\" width=\"25px\" height=\"auto\" alt=\"submit\"></button>\n				</div>\n			</header>\n	<!-- top menu bar here -->\n	<div class=\"nav-bar-div\">\n		<ul id=\"nav-bar\">\n			<li id=\"nav-bar\"><a href=\"index.html\" id=\"nav-bar\">HOMEPAGE</a></li>\n			<li id=\"nav-bar\"><a href=\"admin.html\" id=\"nav-bar\">PROJECT MANAGEMENT</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">NEWS</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">RESEARCH ACTIVITY</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">FAQ</a></li>\n		</ul>\n	</div> \n	<div class=\"middle\">\n		<div class=\"container\">\n			<main class=\"content\">\n				<div class=\"board\">\n					<table>\n						<tr>\n							<td><img class=\"func-icon\" src=\"assets/acc-setting.png\" alt=\"\"><p>Account setting</p>\n							</td>\n							<td><a href=\"project.html\"><img src=\"assets/project.png\" alt=\"\" class=\"func-icon\"><p>Project management</p></a></td>\n							<td><img src=\"assets/report.png\" alt=\"\" class=\"func-icon\"><p>Report management</p></td>\n							\n						</tr>\n						<tr>\n							<td><img src=\"assets/approval.png\" alt=\"\" class=\"func-icon\"><p>Project approving management</p></td>\n							<td><img src=\"assets/resource-icon.png\" alt=\"\" class=\"func-icon\"><p>Resource management</p></td>\n						</tr>\n					</table>\n				</div>\n			</main><!-- .content -->\n		</div><!-- .container-->\n\n		<aside class=\"right-sidebar\">\n		</aside><!-- .right-sidebar -->\n	</div><!-- .middle-->\n	<hr>\n	<div class=\"nav-bar-div\">\n			<ul id=\"nav-bar\">\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">HOMEPAGE</a></li>\n			<li id=\"nav-bar\"><a href=\"admin.html\" id=\"nav-bar\">PROJECT MANAGEMENT</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">NEWS</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">RESEARCH ACTIVITY</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">FAQ</a></li>\n		</ul>\n		</div>\n	<footer class=\"footer\">\n		<div class=\"footer-contact\">\n			<p>Copyright © 2015 Scientific Management Department.</p>\n			<p>University of Technology Education - Ho Chi Minh city.</p>\n			<p>Number: +84 968900142</p>\n			<p>Email: hvd.ute@gmai.com</p>\n		</div>\n	</footer><!-- .footer -->\n\n</div><!-- .wrapper -->\n\n</body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 2952,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 568.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"git clone https://github.com/utkarsh9891/PackageSync.git %APPDATA%\\Sublime/ Text/ 3/\\PackageSync",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"help"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/www/SPM",
+		"/D/www/SPM/jquery",
+		"/D/www/SPM/style"
+	],
+	"file_history":
+	[
+		"/D/www/SPM/signup-2.html",
+		"/D/www/SPM/bootstrap/css/bootstrap.min.css",
+		"/D/www/SPM/bootstrap/css/bootstrap.css",
+		"/D/www/QLNCKH/aaaa.html",
+		"/D/www/QLNCKH/style/table.css",
+		"/D/www/QLNCKH/style/news.css",
+		"/D/www/QLNCKH/style/main.css",
+		"/D/www/QLNCKH/index.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Javascript/test.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Javascript/test2.html",
+		"/D/Downloads/Compressed/IDM 6.23 build 11_20150515/[thuthuat.chiplove.biz] - IDM 6.23 build 11/Huong dan.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/Text transform.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/Layout - float, clear.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/test emmet.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/Layout - table.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/Measure - em, px.html",
+		"/C/php-5.6.9-Win32-VC11-x86/php.ini-development",
+		"/D/www/phpmyadmin/db_designer.php",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/First ex - heading - table.html",
+		"/C/php-5.6.9-Win32-VC11-x86/php.ini",
+		"/C/Users/Hoang Van Dung/AppData/Local/Temp/Rar$DIa0.349/bootstrap.css",
+		"/C/Users/Hoang Van Dung/AppData/Local/Temp/Rar$DIa0.914/bootstrap.min.css",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Media/Tutorials/MuseScore 2 0 in Minutes/MuseScore 2.0 in Minutes.m3u",
+		"/E/Classical Musics/dvorak+78+neumann.zip.htm",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/test.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/Layout - float, clear",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS/Measure - px.html",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Installed Packages/SideBarEnhancements.sublime-package",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/form.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/test.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/CSS.html",
+		"/D/Downloads/Mixcraft Pro Studio v7.5.287 Incl.Keygen-AiR-R2R [deepstatus]/R2R/Acoustica_Host_Patch.cmd",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Special characters.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/hello.php",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Character styles.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Font.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Ordered list.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Images.html",
+		"/D/www/html/info.php",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Hyperlinks.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Preformat.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Paragraph.html",
+		"/D/FIT HCMUTE/Lap Trinh Web - Dang Thanh Dung/HTML/Heading.html",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/E/Classical Musics/James Galway - The Greatest Hits (RCA Red Seal Best 100) (2008) FLAC/James Galway - The Greatest Hits (RCA Red Seal Best 100).log",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/User/PackageSync.sublime-settings",
+		"/D/www/simple-blog/public/index.php",
+		"/D/www/simple-blog/bootstrap/autoload.php",
+		"/D/Workspaces/QuanLyThuVien/BusinessAccessLayer/DauSachBAL.cs",
+		"/D/www/simple-blog/app/Http/routes.php",
+		"/D/www/simple-blog/app/Http/Kernel.php",
+		"/C/Users/Hoang Van Dung/AppData/Local/Temp/Rar$DIa0.278/bootstrap.js",
+		"/C/Users/Hoang Van Dung/AppData/Local/Temp/Rar$DIa0.180/bootstrap.min.js",
+		"/D/DANH SACH NHOM.txt",
+		"/D/DANH SACH NHOM",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/FileBrowser/dired.sublime-settings",
+		"/D/www/simple-blog/public/info.php",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/FileBrowser.sublime-package",
+		"/C/xampp/php/php.ini",
+		"/C/xampp/apache/conf/httpd.conf",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/FileBrowser/Default.sublime-keymap",
+		"/C/Users/Hoang Van Dung/AppData/Roaming/Sublime Text 3/Packages/User/dired.sublime-settings",
+		"/C/Program Files (x86)/ComposerSetup/unins000.msg",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/www/wordpress/wp-load.php",
+		"/D/Development & Programming/sublime 3 3065 key.txt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" ",
+			"mysql",
+			"#\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								580,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1365.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "site-frame.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1651,
+								1651
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 540.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "project.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								738,
+								738
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 810.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								566,
+								566
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 68.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "signin.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1120,
+								1120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "admin.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2951,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2951
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								762,
+								762
+							]
+						],
+						"settings":
+						{
+							"default_dir": "D:\\www\\SPM",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.39265014071,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "qlnckh.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 226.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
