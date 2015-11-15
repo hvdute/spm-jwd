@@ -124,19 +124,33 @@
 			}
 		},
 		{
-			"file": "site-frame.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2218,
+				"buffer_size": 5465,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "index.html",
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Document</title>\n    <!-- Latest compiled and minified CSS & JS -->\n    <link rel=\"stylesheet\" media=\"screen\" href=\"//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css\">\n    <script src=\"//code.jquery.com/jquery.js\"></script>\n    <script src=\"//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js\"></script>\n</head>\n<body>\n    \n</body>\n</html>",
+			"file": "test.html",
+			"file_size": 426,
+			"file_write_time": 130920460443122954,
 			"settings":
 			{
-				"buffer_size": 5427,
-				"line_ending": "Windows"
+				"buffer_size": 441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nBootstrap 3 Snippets\n--------------------\n\n  ============================================================\n  Thank you for installing Bootstrap 3 Snippets\n  ============================================================\n  Follow me on Twitter: @JasonMortonNZ\n  ------------------------------------------------------------\n  \n  Bootstrap 3 snippets is a selection of snippets\n  that will greatly improve your workflow.\n  \n  This package is compatible with both Sublime\n  Text versions 2 & 3.\n  \n  Documentation, examples & issue filing can be found here:\n  https://github.com/JasonMortonNZ/bs3-sublime-plugin\n",
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		},
 		{
@@ -170,14 +184,6 @@
 				"buffer_size": 2951,
 				"line_ending": "Windows"
 			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<meta charset=\"utf-8\" />\n	<!--[if lt IE 9]><script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script><![endif]-->\n	<title>ADMINISTRATOR BOARD - SPM</title>\n	<meta name=\"keywords\" content=\"\" />\n	<meta name=\"description\" content=\"\" />\n	<link href=\"style/layout.css\" rel=\"stylesheet\">\n	<link rel=\"stylesheet\" href=\"style/main.css\">\n	<link rel=\"stylesheet\" href=\"style/table.css\">\n</head>\n\n<body>\n\n<div class=\"wrapper\">\n	<header class=\"header\">\n				<a href=\"index.html\"><img src=\"assets/header-banner.jpg\" alt=\"\" id=\"header-banner\"></a>\n				<div id=\"login-block\">\n					<a href=\"signin.html\">Signin</a>\n					<a href=\"signup.html\">Signup</a>\n				</div>\n				<div id=\"search-block\">\n					<input type=\"text\"><button type=\"s`ubmit\" style=\"border:0; background: transparent;\"><img src=\"assets/search.png\" width=\"25px\" height=\"auto\" alt=\"submit\"></button>\n				</div>\n			</header>\n	<!-- top menu bar here -->\n	<div class=\"nav-bar-div\">\n		<ul id=\"nav-bar\">\n			<li id=\"nav-bar\"><a href=\"index.html\" id=\"nav-bar\">HOMEPAGE</a></li>\n			<li id=\"nav-bar\"><a href=\"admin.html\" id=\"nav-bar\">PROJECT MANAGEMENT</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">NEWS</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">RESEARCH ACTIVITY</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">FAQ</a></li>\n		</ul>\n	</div> \n	<div class=\"middle\">\n		<div class=\"container\">\n			<main class=\"content\">\n				<div class=\"board\">\n					<table>\n						<tr>\n							<td><img class=\"func-icon\" src=\"assets/acc-setting.png\" alt=\"\"><p>Account setting</p>\n							</td>\n							<td><a href=\"project.html\"><img src=\"assets/project.png\" alt=\"\" class=\"func-icon\"><p>Project management</p></a></td>\n							<td><img src=\"assets/report.png\" alt=\"\" class=\"func-icon\"><p>Report management</p></td>\n							\n						</tr>\n						<tr>\n							<td><img src=\"assets/approval.png\" alt=\"\" class=\"func-icon\"><p>Project approving management</p></td>\n							<td><img src=\"assets/resource-icon.png\" alt=\"\" class=\"func-icon\"><p>Resource management</p></td>\n						</tr>\n					</table>\n				</div>\n			</main><!-- .content -->\n		</div><!-- .container-->\n\n		<aside class=\"right-sidebar\">\n		</aside><!-- .right-sidebar -->\n	</div><!-- .middle-->\n	<hr>\n	<div class=\"nav-bar-div\">\n			<ul id=\"nav-bar\">\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">HOMEPAGE</a></li>\n			<li id=\"nav-bar\"><a href=\"admin.html\" id=\"nav-bar\">PROJECT MANAGEMENT</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">NEWS</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">RESEARCH ACTIVITY</a></li>\n			<li id=\"nav-bar\"><a href=\"#\" id=\"nav-bar\">FAQ</a></li>\n		</ul>\n		</div>\n	<footer class=\"footer\">\n		<div class=\"footer-contact\">\n			<p>Copyright © 2015 Scientific Management Department.</p>\n			<p>University of Technology Education - Ho Chi Minh city.</p>\n			<p>Number: +84 968900142</p>\n			<p>Email: hvd.ute@gmai.com</p>\n		</div>\n	</footer><!-- .footer -->\n\n</div><!-- .wrapper -->\n\n</body>\n</html>",
-			"settings":
-			{
-				"buffer_size": 2952,
-				"line_ending": "Windows"
-			}
 		}
 	],
 	"build_system": "",
@@ -187,10 +193,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 400.0,
-		"last_filter": "Package Control: ",
+		"height": 332.0,
+		"last_filter": "in",
 		"selected_items":
 		[
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
 			[
 				"Package Control: ",
 				"Package Control: List Packages"
@@ -204,15 +222,11 @@
 				"Package Control: Install Package"
 			],
 			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
 				"Package Contr",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 568.0
+		"width": 454.0
 	},
 	"console":
 	{
@@ -235,12 +249,16 @@
 	},
 	"expanded_folders":
 	[
-		"/D/www/SPM",
-		"/D/www/SPM/jquery",
-		"/D/www/SPM/style"
+		"/home/hoangvandung/Workspaces/spm-jwd"
 	],
 	"file_history":
 	[
+		"/home/hoangvandung/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/hoangvandung/.config/sublime-text-3/Packages/SideBarEnhancements/Default (Linux).sublime-keymap",
+		"/home/hoangvandung/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/hoangvandung/.config/sublime-text-3/Packages/User/Side Bar.sublime-settings",
+		"/home/hoangvandung/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/hoangvandung/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
 		"/D/www/SPM/signup-2.html",
 		"/D/www/SPM/bootstrap/css/bootstrap.min.css",
 		"/D/www/SPM/bootstrap/css/bootstrap.css",
@@ -314,7 +332,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"find_in_files":
 	{
@@ -365,8 +383,8 @@
 						"selection":
 						[
 							[
-								580,
-								604
+								183,
+								183
 							]
 						],
 						"settings":
@@ -375,62 +393,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1365.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "site-frame.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								822,
-								822
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 315.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5427,
+						"buffer_size": 5465,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1651,
-								1651
+								55,
+								55
 							]
 						],
 						"settings":
@@ -440,14 +429,75 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "test.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								425,
+								425
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/home/hoangvandung/Workspaces/spm-jwd",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "project.html",
 					"semi_transient": false,
 					"settings":
@@ -470,14 +520,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 810.0,
+						"translation.y": 172.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "signup.html",
 					"semi_transient": false,
 					"settings":
@@ -506,7 +556,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "signin.html",
 					"semi_transient": false,
 					"settings":
@@ -528,14 +578,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 135.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "admin.html",
 					"semi_transient": false,
 					"settings":
@@ -547,41 +597,12 @@
 						"selection":
 						[
 							[
-								0,
-								2951
+								775,
+								775
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 405.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								762,
-								762
-							]
-						],
-						"settings":
-						{
-							"default_dir": "D:\\www\\SPM",
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
@@ -589,7 +610,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -597,7 +618,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 23.0
+		"height": 24.0
 	},
 	"input":
 	{
@@ -623,7 +644,7 @@
 		"cols":
 		[
 			0.0,
-			0.39265014071,
+			0.377777084025,
 			1.0
 		],
 		"rows":
@@ -641,7 +662,7 @@
 	"project": "qlnckh.sublime-project",
 	"replace":
 	{
-		"height": 68.0
+		"height": 44.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -679,7 +700,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 226.0,
+	"side_bar_width": 186.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
